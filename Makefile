@@ -1,5 +1,18 @@
 export RELEASE_MANAGER=philipphenkel
-export RELEASE_VERSION=0_2_5
+export RELEASE_VERSION=0_2_6
+
+INSTALL_PREFIX?=/usr/local
+
+# Default target executed when no arguments are given to make.
+default_target: all
+
+all: install
+
+install:
+	cp -R boost $(INSTALL_PREFIX)/include
+
+uninstall:
+	rm -rf $(INSTALL_PREFIX)/include/boost/threadpool
 
 doc: clean
 	make --directory=./libs/threadpool/doc --print-directory doc
