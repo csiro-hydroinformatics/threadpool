@@ -6,9 +6,13 @@ INSTALL_PREFIX?=/usr/local
 # Default target executed when no arguments are given to make.
 default_target: all
 
-all: install
+all: build
+
+build:
+	echo "Nothing to do as build"
 
 install:
+	mkdir -p $(INSTALL_PREFIX)/include
 	cp -R boost $(INSTALL_PREFIX)/include
 
 uninstall:

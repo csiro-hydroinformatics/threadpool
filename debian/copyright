@@ -3,15 +3,15 @@ Upstream-Name: threadpool
 Upstream-Contact: Jean-Michel Perraud <per202@csiro.au>
 Source: <https://github.com/csiro-hydroinformatics/threadpool>
 
-Copyright:
 Files: *
+Copyright:
     Copyright (C) 2012-2020 Phillip Henkel
     Copyright (C) 2016-2020 Jean-Michel Perraud
     Copyright (C) 2019 jzh800
     Copyright (C) 2015 zhouyupeng
-    
+License: Boost-1
 
-License:
+License: Boost-1
     Boost Software License - Version 1.0 - August 17th, 2003
     .
     Permission is hereby granted, free of charge, to any person or organization
