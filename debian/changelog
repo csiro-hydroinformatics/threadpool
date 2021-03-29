@@ -1,4 +1,4 @@
-libboost-threadpool-dev (0.2-6) unstable; urgency=medium
+boost-threadpool (0.2-6) unstable; urgency=medium
 
   * Initial release, testing debian packaging
 

@@ -1,0 +1,8 @@
+usr/include/boost/threadpool.h*    /usr/include/boost/
+usr/include/boost/threadpool/*.h*  /usr/include/boost/threadpool/
+usr/include/boost/threadpool/detail/*.h*  /usr/include/boost/threadpool/detail/
+# This worked fine on debian bullseye, not on Ubuntu an bionic VM
+# usr/lib/${DEB_HOST_MULTIARCH}/pkgconfig/*.pc    /usr/lib/${DEB_HOST_MULTIARCH}/pkgconfig/
+# usr/lib/*/pkgconfig/*.pc # not working 
+# Ubuntu VM seems to require:
+usr/lib/x86_64-linux-gnu/pkgconfig/*.pc   /usr/lib/x86_64-linux-gnu/pkgconfig/
